@@ -60,7 +60,6 @@ class CalcularColores implements Callable<int[]> {
 
             r=rnew;i=inew;
         }
-
         return MAX_ITERATIONS;
     }
 }

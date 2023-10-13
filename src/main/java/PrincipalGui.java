@@ -11,7 +11,7 @@ public class PrincipalGui {
         JFrame frame = new JFrame("Mandelbrot Set");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        SpinnerNumberModel spinnerModel = new SpinnerNumberModel(4, 1, 55, 1);
+        SpinnerNumberModel spinnerModel = new SpinnerNumberModel(4, 1, 100, 1);
         JSpinner spinner = new JSpinner(spinnerModel);
         frame.add(spinner, BorderLayout.NORTH);
 
